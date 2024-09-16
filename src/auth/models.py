@@ -5,10 +5,8 @@ from datetime import datetime
 
 from fastapi_users.db import SQLAlchemyBaseUserTable
 
-from src.database import Base
+from src.database import metadata, Base
 
-
-metadata = MetaData()
 
 role = Table(
     'role',

@@ -132,7 +132,6 @@ dist
 codecamp
 codecamp/*
 venv
-migrations
 static_root
 .sqlite3
 db.sqlite3
